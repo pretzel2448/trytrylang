@@ -1,0 +1,60 @@
+*{
+    font-family:sans-serif;
+}
+.logoLetran{
+ width: 40px;
+ height: 40px;   
+ margin-right: 10px;
+ margin: auto;
+}
+.letranName{
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: lightslategray;
+}
+.navbar{
+    left: 360px;
+    position: absolute;
+    top: 20px;
+    margin: auto;
+}
+.navbarhref{
+    margin-right: 30px;
+}
+.navbox{
+    width: auto;
+    height: auto;
+    border:0px solid;
+    background-color: whitesmoke;
+}
+aside{
+    width: auto;
+    height: auto;
+    border:0px solid;
+    background-color: lightgray;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: auto;
+    height: auto;
+    border:0px solid;
+    background-color: whitesmoke;
+}
+.footerimg{
+    width: 100px;
+    height: 100px;
+}
+.footerp{
+    margin-top: -100px;
+    margin-left: 120px;
+}

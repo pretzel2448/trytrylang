@@ -3,21 +3,24 @@
 }
 .logoLetran{
  width: 80px;
- height: 80px;   
+ height: 70px;   
  margin-right: 10px;
- margin: auto;
+ margin-top: 5px;
 }
 .letranName{
     font-size: 15px;
     position: absolute;
-    top: 0px;
+    top: -12px;
     left: 85px;
     text-align: center;
+    font-family: Geneva;
+    color: white;
 }
 body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #1e5799;
 }
 
 .wrapper{
@@ -31,12 +34,14 @@ nav{
     height: 80px;
     background-color: #0005;
     line-height: 80px;
+    box-shadow: 0px -5px 10px 10px black;
+    border-bottom: 1px solid black;
 }
 
 nav ul{
     float: right;
     margin: 0;
-    margin-right: 1.9rem;
+    margin-right: 4rem;
 }
 
 nav ul li{
@@ -50,13 +55,11 @@ nav ul li a{
     padding: 20px;
 }
 
-
-
+a:hover{
+    color: #d21a1a;
+}
 nav ul li:hover{
-    background-color: coral;
-    color: #000;
-    font-weight: bold;
-    font-size: 1.2rem;
+    background-color: #022f5a;
 }
 
 .section{
@@ -124,9 +127,11 @@ showcase h1{
 }
 
 footer{
-    background-color: #333;
+    background-color: #0005;
     color: #fff;
     text-align: center;
     padding: 1.2rem;
     margin-top: 4%;
+    box-shadow: 0px 5px 10px 10px black;
+    border-top: 1px solid black;
 }
